@@ -1,0 +1,94 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff0f5;
+    color: #4a2435;
+    }
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    text-align: center;
+    color: #d63384;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.intro {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cake h2 {
+    color: #b52b65;
+    margin-top: 0;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 90px;
+}
+
+button {
+    display: block;
+    width: 220px;
+    padding: 14px;
+    margin: 25px auto 0;
+    background: #d63384;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #a61e5b;
+}
+
+.payment {
+    margin-top: 25px;
+}
+.payment h2 {
+   color: #c2185b;
+   margin-bottom: 15px;
+}
+.payment label {
+    display: block;
+    margin: 12px 0;
+    font-size: 16px;
+}
+.payment input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
