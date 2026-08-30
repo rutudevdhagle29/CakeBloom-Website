@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff5f7;
+    color: #4a2c2a;
+}
+
+.variety-container {
+    padding: 40px 8%;
+    text-align: center;
+}
+
+.variety-container h1 {
+    font-size: 36px;
+    color: #c45b75;
+    margin-bottom: 10px;
+}
+
+.variety-container p {
+    font-size: 17px;
+    margin-bottom: 35px;
+}
+
+.cake-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.cake-card {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+
+.cake-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cake-card img {
+    width: 100px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.cake-card h2 {
+    color: #c45b75;
+    margin: 15px 0 8px;
+}
+
+.cake-card p {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #9b3d59;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 20px;
+    background: #c45b75;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background: #9b3d59;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .cake-container {
+        grid-template-columns: 1fr;
+    }
+}
